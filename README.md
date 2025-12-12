@@ -69,3 +69,13 @@ FastAPI was chosen for its rapid development speed, clear API contracts, and bui
 ### 1. Install dependencies
 ```bash
 pip install fastapi uvicorn
+```
+
+### 2. Start the server
+```bash
+uvicorn main:app --reload
+```
+
+### 3. Access the app
+- UI: http://127.0.0.1:8000
+- API Docs: http://127.0.0.1:8000/docs
