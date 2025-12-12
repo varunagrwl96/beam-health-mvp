@@ -90,6 +90,11 @@
 <script>
 let patientId = null;
 
+function resetAppointmentsUI() {
+  document.getElementById("appointments-section").classList.add("hidden");
+  document.getElementById("appointments").innerHTML = "";
+}
+
 // ---------- Intake ----------
 document.getElementById("intake-form").addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -126,6 +131,7 @@ document.getElementById("intake-form").addEventListener("submit", async (e) => {
     msg.innerHTML = `<span class="error">
       Not Eligible ❌ – ${data.eligibility.reason}
     </span>`;
+    resetAppointmentsUI()
   }
 });
 
