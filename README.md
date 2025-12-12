@@ -59,9 +59,6 @@ All data is loaded at application startup and managed in memory for simplicity.
 - **Backend:** Python, FastAPI
 - **Frontend:** HTML, CSS, Vanilla JavaScript
 - **Data Storage:** JSON files (no database)
-
-FastAPI was chosen for its rapid development speed, clear API contracts, and built-in interactive documentation.
-
 ---
 
 ## How to Run
