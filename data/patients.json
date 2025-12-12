@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "first_name": "John",
+    "last_name": "Appleseed",
+    "dob": "1990-04-10",
+    "email": "john.appleseed@example.com",
+    "phone": "5551231111",
+    "gender": "male"
+  },
+  {
+    "id": 2,
+    "first_name": "Maya",
+    "last_name": "Patel",
+    "dob": "1985-12-22",
+    "email": "maya.patel@example.com",
+    "phone": "5559876543",
+    "gender": "female"
+  },
+  {
+    "id": 3,
+    "first_name": "Carlos",
+    "last_name": "Hernandez",
+    "dob": "1978-07-03",
+    "email": "carlos.hdz@example.com",
+    "phone": "5554449090",
+    "gender": "male"
+  },
+  {
+    "id": 4,
+    "first_name": "Aisha",
+    "last_name": "Khan",
+    "dob": "1993-02-17",
+    "email": "aisha.khan@example.com",
+    "phone": "5552223333",
+    "gender": "female"
+  },
+  {
+    "id": 5,
+    "first_name": "Liam",
+    "last_name": "O'Connor",
+    "dob": "2001-09-14",
+    "email": "liam.oconnor@example.com",
+    "phone": "5551112222",
+    "gender": "male"
+  }
+]

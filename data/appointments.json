@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "status": "available",
+    "start": "2026-01-14T09:00:00",
+    "slot_duration": 30,
+    "patient_id": null
+  },
+  {
+    "id": 2,
+    "status": "available",
+    "start": "2026-01-14T09:30:00",
+    "slot_duration": 30,
+    "patient_id": null
+  },
+  {
+    "id": 3,
+    "status": "booked",
+    "start": "2026-01-14T10:00:00",
+    "slot_duration": 30,
+    "patient_id": 2
+  },
+  {
+    "id": 4,
+    "status": "available",
+    "start": "2026-01-14T10:30:00",
+    "slot_duration": 30,
+    "patient_id": null
+  },
+  {
+    "id": 5,
+    "status": "booked",
+    "start": "2026-01-14T11:00:00",
+    "slot_duration": 30,
+    "patient_id": 4
+  }
+]
